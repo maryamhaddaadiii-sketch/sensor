@@ -36,7 +36,17 @@ Accuracy Score measures the percentage of correctly classified samples.
 ```python
 accuracy_score(y_true, y_pred)
 ```
+cm=confusion_matrix(data['truth'],data['prediction'])
 
+plt.figure(figsize=(6, 5))
+
+sns.heatmap(cm, annot=True, fmt='d',cmap="YlOrBr" )
+
+
+plt.xlabel('prediction')
+
+plt.ylabel('truth')
+plt.show()
 ### Confusion Matrix
 
 The Confusion Matrix compares the actual labels with the predicted labels.
