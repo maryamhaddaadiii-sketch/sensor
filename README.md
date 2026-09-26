@@ -45,12 +45,8 @@ The Confusion Matrix compares the actual labels with the predicted labels.
 confusion_matrix(y_true, y_pred)
 ```
 
-It shows:
+<img width="514" height="448" alt="image" src="https://github.com/user-attachments/assets/ebf94595-7b7f-4b54-9ae9-12aa93601411" />
 
-* True Positive
-* True Negative
-* False Positive
-* False Negative
 
 ## 📁 Project Files
 
